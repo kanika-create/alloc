@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.table {
+  border-collapse: collapse;
+  width: 31%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
