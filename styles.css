@@ -8,12 +8,12 @@
   width: 31%;
 }
 
+.table tr:nth-child(odd) {
+  background-color: grey;
+  color: black;
+}
 th, td {
   border: 1px solid black;
-  padding: 8px 15px;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
+  padding: 4px 8px;
+  text-align: center;
 }
