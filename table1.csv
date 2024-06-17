@@ -14,8 +14,8 @@ date,underlying,to_pct,exchange,decision_to
 20240614,WHEAT,0.792,CME,increase
 20240614,DOL,0.948,BRAZIL,increase
 20240614,IND,0.336,BRAZIL,probably decrease
-20240614,WDO,0.932,B3,increase
-20240614,WIN,0.936,B3,increase
+20240614,WDO,0.932,BRAZIL,increase
+20240614,WIN,0.936,BRAZIL,increase
 20240614,ALUMINIUM,0.96,MCX,increase
 20240614,COPPER,0.988,MCX,increase
 20240614,CRUDEOIL,0.208,MCX,decrease
