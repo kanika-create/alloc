@@ -1,12 +1,12 @@
 .container {
   display: flex;
   font-size: small;
-  justify-content:space-around;
+  justify-content:space-evenly;
 }
 
 .table {
   border-collapse: collapse;
-  width: 40;
+  width: 100%;
 }
 
 th, td {
@@ -17,6 +17,12 @@ th, td {
 .table tr:nth-child(odd) {
   background-color: rgb(240, 240, 240);
   color: black;
+}
+
+@media (max-width: 800px) {
+  .container {
+      flex-direction: column;
+  }
 }
 
 th{
