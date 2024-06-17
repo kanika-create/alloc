@@ -1,36 +1,15 @@
-symbol,to_bucket,price_bucket,vol_cross,vol_hist
-ACC,1,4,3,2
-ACC,1,4,4,2
-ACC,1,4,5,4
-ACC,1,5,2,3
-ACC,2,4,2,2
-ACC,2,4,2,3
-ACC,2,4,2,4
-ACC,2,4,3,4
-ACC,2,4,4,3
-ACC,2,4,5,4
-ACC,2,4,5,5
-ACC,2,5,2,2
-ACC,2,5,3,2
-ACC,2,5,3,3
-ACC,2,5,3,4
-ACC,2,5,3,5
-ACC,2,5,4,3
-ACC,2,5,4,4
-ACC,2,5,4,5
-ACC,2,5,5,4
-ACC,2,5,5,5
-ACC,2,5,5,5
-ACC,3,4,3,4
-ACC,3,4,3,5
-ACC,3,4,4,5
-ACC,3,4,5,5
-ACC,3,5,4,4
-ACC,3,5,4,5
-ACC,3,5,4,5
-ACC,3,5,5,4
-ACC,3,5,5,5
-ACC,3,5,5,5
-ACC,3,5,5,5
-ACC,4,5,4,5
-ACC,4,5,5,5
+date,symbol,abs_move_20days_pct,decision_env
+20240614,ALUMINIUM,0.7235,increase
+20240614,COPPER,0.81315,increase
+20240614,ZINC,0.81912,increase
+20240614,EMININASDAQ,0.04833,decrease
+20240614,EMINISP,0.04032,decrease
+20240614,WIN,0.12024,decrease
+20240614,GOLD,0.93511,increase
+20240614,SILVER,0.97451,probably increase
+20240614,WHEAT,0.69675,probably increase
+20240614,stocks_all,0.8774,probably increase
+20240614,stocks_top50,0.95192,probably increase
+20240614,stocks_top100,0.97236,probably increase
+20240614,NIFTY,0.90264,increase
+20240614,BANKNIFTY,0.83654,increase
