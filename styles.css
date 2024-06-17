@@ -1,19 +1,25 @@
 .container {
   display: flex;
-  justify-content: space-around;
+  font-size: small;
+  justify-content:space-around;
 }
 
 .table {
   border-collapse: collapse;
-  width: 31%;
+  width: 40;
 }
 
+th, td {
+  border: none;
+  padding: 5px 10px;
+  text-align: right;
+}
 .table tr:nth-child(odd) {
-  background-color: grey;
+  background-color: rgb(240, 240, 240);
   color: black;
 }
-th, td {
-  border: 1px solid black;
-  padding: 4px 8px;
-  text-align: center;
+
+th{
+  background-color: white; 
+  border-bottom: 1px solid black;  
 }
