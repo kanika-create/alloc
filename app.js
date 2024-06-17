@@ -15,8 +15,10 @@ function loadTable(table, file) {
     .then(data => {
       const rows = data.trim().split("\n");
       const headers = rows[0].split(",");
-      const tableBody = document.createElement("tbody");
+      const tableHead = document.createElement("thead");
+      table.appendChild(tableHead);
 
+      const tableBody = document.createElement("tbody");
       rows.slice(1).forEach(row => {
         if (row) {
           const cells = row.split(",");
@@ -25,6 +27,12 @@ function loadTable(table, file) {
           cells.forEach(cell => {
             const tableCell = document.createElement("td");
             tableCell.textContent = cell;
+            if(cell.includes("increase")){
+              tableCell.style.color = "green";
+            }
+            else if(cell.includes("decrease")){
+              tableCell.style.color = "red";
+            }
             tableRow.appendChild(tableCell);
           });
 
@@ -37,9 +45,6 @@ function loadTable(table, file) {
     })
     .catch(() => {
       console.warn(`Failed to load ${file}`);
-      //const yesterday = new Date();
-      //yesterday.setDate(yesterday.getDate() - 1);
-      //const yesterdayFormatted = yesterday.toISOString().split("T")[0];
       loadTable(table, `${file}`);
     });
 }
