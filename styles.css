@@ -2,6 +2,7 @@
   display: flex;
   font-size: small;
   justify-content:space-evenly;
+  flex-wrap: wrap;
 }
 
 .table {
@@ -19,11 +20,11 @@ th, td {
   color: black;
 }
 
-@media (max-width: 800px) {
+/* @media (max-width: 800px) {
   .container {
       flex-direction: column;
   }
-}
+} */
 
 th{
   background-color: white; 
