@@ -30,6 +30,6 @@ date,underlying,to_pct,exchange,decision_to
 20240614,FINNIFTY,0.976,NSE,increase
 20240614,MIDCPNIFTY,0.948,NSE,increase
 20240614,NIFTY,0.984,NSE,increase
-20240614,stocks_top10,0.972,NSE,increase
+20240614,stocks_top100,0.972,NSE,increase
 20240614,stocks_top50,0.972,NSE,increase
 20240614,stocks_all,0.972,NSE,increase
