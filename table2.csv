@@ -1,15 +1,16 @@
 date,symbol,abs_move_20days_pct,decision_env
-20240625,GOLD,0.87931,increase
-20240625,SILVER,0.95287,probably increase
-20240625,SYBEANIDR,0.51371,increase
-20240625,WHEAT,0.58781,probably increase
-20240625,COPPER,0.70938,increase
-20240625,ZINC,0.66629,increase
-20240625,EMININASDAQ,0.1347,decrease
-20240625,EMINIRUSSELL,0.16819,probably decrease
-20240625,EMINISP,0.02857,decrease
-20240625,stocks_all,0.90811,probably increase
-20240625,stocks_top50,0.96659,probably increase
-20240625,stocks_top100,0.9642,probably increase
-20240625,NIFTY,0.91647,increase
-20240625,BANKNIFTY,0.89379,increase
+20240626,GOLD,0.87141,increase
+20240626,SILVER,0.95408,probably increase
+20240626,CORN,0.55238,increase
+20240626,WHEAT,0.53938,probably increase
+20240626,COPPER,0.69029,increase
+20240626,ZINC,0.71347,increase
+20240626,EMININASDAQ,0.0935,decrease
+20240626,EMINIRUSSELL,0.12914,probably decrease
+20240626,EMINISP,0.00913,decrease
+20240626,WIN,0.15448,decrease
+20240626,stocks_all,0.90226,probably increase
+20240626,stocks_top50,0.96186,probably increase
+20240626,stocks_top100,0.95709,probably increase
+20240626,NIFTY,0.92729,increase
+20240626,BANKNIFTY,0.89154,increase
