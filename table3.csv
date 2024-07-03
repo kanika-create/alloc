@@ -1,6 +1,5 @@
 date,strategy,60_day_pct,20day_slope,decision_strat
-20240701,logic44_stockfutures_nse,0.42394,1.0,increase
-20240701,logic110_indexfutures_cme,0.50652,1.0,increase
-20240701,logic109_indexfutures_cme,0.37108,1.0,increase
-20240701,logic1006_stockfutures_nse,0.39547,1.0,increase
-20240701,logic1005_stockfutures_nse,0.3463,1.0,increase
+20240702,logic44_stockfutures_nse,0.40847,1.0,increase
+20240702,logic19_indexoptions_nse,0.49689,1.0,increase
+20240702,logic110_indexfutures_cme,0.56991,1.0,increase
+20240702,logic109_indexfutures_cme,0.40313,1.0,increase
