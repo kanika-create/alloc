@@ -1,19 +1,11 @@
 date,symbol,abs_move_20days_pct,decision_env
 20240711,GOLD,0.54649,increase
-20240711,SILVER,0.45125,no-change
-20240711,CORN,0.49117,no-change
-20240711,SYBEANIDR,0.25442,no-change
 20240711,WHEAT,0.53719,probably increase
 20240711,ALUMINIUM,0.12063,decrease
-20240711,COPPER,0.37472,no-change
-20240711,ZINC,0.20519,no-change
-20240711,EMININASDAQ,0.26351,no-change
 20240711,EMINIRUSSELL,0.08691,decrease
 20240711,EMINISP,0.02368,decrease
 20240711,WIN,0.01863,decrease
-20240711,WDO,0.39365,no-change
 20240711,stocks_all,0.17765,probably decrease
 20240711,stocks_top50,0.11647,probably decrease
 20240711,stocks_top100,0.14941,probably decrease
 20240711,NIFTY,0.18588,decrease
-20240711,BANKNIFTY,0.23294,no-change
